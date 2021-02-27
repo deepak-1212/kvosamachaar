@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                     notificationModel.setTitle(cursor.getString(cursor.getColumnIndex("notification_title")));
                     notificationModel.setBody(cursor.getString(cursor.getColumnIndex("notification_body")));
 
-                    String url = "<a href='" + cursor.getString(cursor.getColumnIndex("notification_url")) + "'>Click here</a>";
+                    String url = "<a href='" + cursor.getString(cursor.getColumnIndex("notification_url")) + "'>Click here for more detail</a>";
                     //String url = "<a href='http://www.google.com/'>Click here</a>";
 
                     notificationModel.setUrl(Html.fromHtml(url));
