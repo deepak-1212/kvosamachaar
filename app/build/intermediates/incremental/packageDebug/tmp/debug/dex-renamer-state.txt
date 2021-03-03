@@ -1,7 +1,7 @@
-#Sat Feb 27 11:32:09 IST 2021
-base.0=E\:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Wed Mar 03 22:50:00 IST 2021
+base.0=E\:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=E\:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=E\:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

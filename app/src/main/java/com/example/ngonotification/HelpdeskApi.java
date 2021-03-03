@@ -23,4 +23,9 @@ public interface HelpdeskApi {
                                             @Query("message") String message,
                                             @Query("url") String url);
 
+    @GET("registration.php")
+    Call<TokenResponse> Register(@Query("name") String title,
+                                 @Query("number") String message,
+                                 @Query("mac") String url);
+
 }

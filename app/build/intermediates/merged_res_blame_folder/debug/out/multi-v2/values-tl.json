@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
+            "outputFile": "E:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-tl\\values-tl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\abc\\.gradle\\caches\\transforms-2\\files-2.1\\def43f9a8153fe7cb7b919950be46b92\\jetified-play-services-basement-17.0.0\\res\\values-tl\\values.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "outputFile": "E:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\abc\\.gradle\\caches\\transforms-2\\files-2.1\\d7541850983d62087593dfcdccb90d64\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",

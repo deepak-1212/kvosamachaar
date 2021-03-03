@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\86246a633ecdb3a6c78a0ec91eb076af\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\ef64fc028521f1543ce0e3706e5752b7\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\d7541850983d62087593dfcdccb90d64\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -68,25 +68,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\abc\.gradle\c
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\7448a5d0684e60d6e00d2dbc01c67f8b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\0ad91c7b70f30b37c22b9d409446d258\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\add8e3496b019b33a4db0970631d8256\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:1-35:12
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\0889f1a5e4df287054f4e97ffdca73f2\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\0889f1a5e4df287054f4e97ffdca73f2\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\fc346ac346e0670f6da1ab02b1c17000\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
@@ -106,9 +106,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\b9e60dd2e860209cfb05ae86db773460\jetified-play-services-measurement-sdk-api-18.0.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\b9e60dd2e860209cfb05ae86db773460\jetified-play-services-measurement-sdk-api-18.0.2\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:7:5-33:19
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:7:5-34:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\86246a633ecdb3a6c78a0ec91eb076af\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\86246a633ecdb3a6c78a0ec91eb076af\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\ef64fc028521f1543ce0e3706e5752b7\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -166,61 +166,65 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0-beta02] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\7614dbbada1cbe50f23e2c2fbcca1f3a\core-1.5.0-beta02\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:11:9-50
 	android:icon
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:9:9-45
 	android:allowBackup
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:13:9-53
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:13:9-53
 	android:usesCleartextTraffic
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:14:9-44
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:14:9-44
+activity#com.example.ngonotification.RegistrationActivity
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:15:9-67
+	android:name
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:15:19-55
 activity#com.example.ngonotification.WebViewActivity
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:15:9-52
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:16:9-53
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:15:19-50
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:16:19-50
 activity#com.example.ngonotification.CreateNotification
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:16:9-56
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:17:9-56
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:16:19-53
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:17:19-53
 activity#com.example.ngonotification.MainActivity
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:22:27-74
 service#com.example.ngonotification.MyFirebaseMessagingService
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:25:9-32:19
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:26:9-33:19
 	android:exported
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:26:13-55
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:27:13-55
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT+action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:29:13-32:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:29:17-78
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:30:17-78
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:29:25-75
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:30:25-75
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:30:17-80
+ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:31:17-80
 	android:name
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml:30:25-77
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml:31:25-77
 uses-sdk
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\86246a633ecdb3a6c78a0ec91eb076af\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\86246a633ecdb3a6c78a0ec91eb076af\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\ef64fc028521f1543ce0e3706e5752b7\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -349,16 +353,16 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\abc\.gradle\caches\
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\0ad91c7b70f30b37c22b9d409446d258\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\add8e3496b019b33a4db0970631d8256\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\add8e3496b019b33a4db0970631d8256\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		ADDED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AndroidProjects\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidProjects\Personal\NgoNotification\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.6.0] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\0889f1a5e4df287054f4e97ffdca73f2\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\abc\.gradle\caches\transforms-2\files-2.1\fc346ac346e0670f6da1ab02b1c17000\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79

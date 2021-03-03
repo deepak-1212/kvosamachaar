@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "E:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\abc\\.gradle\\caches\\transforms-2\\files-2.1\\7614dbbada1cbe50f23e2c2fbcca1f3a\\core-1.5.0-beta02\\res\\values-v16\\values-v16.xml",

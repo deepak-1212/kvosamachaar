@@ -1,6 +1,5 @@
 package com.example.ngonotification;
 
-import android.content.ContentValues;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
@@ -13,13 +12,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -27,8 +22,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ngonotification.Model.TokenRequest;
 import com.example.ngonotification.Model.TokenResponse;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.net.NetworkInterface;
@@ -79,8 +72,29 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        getToken();
         initViews();
+
+        try {
+            String name = settings.getString("name", "");
+            String number = settings.getString("number", "");
+
+            if (name.isEmpty() || number.isEmpty()) {
+                finish();
+                Intent intent = new Intent(this, RegistrationActivity.class);
+                startActivity(intent);
+            } else {
+                mainActivity();
+            }
+        } catch (Exception e) {
+            finish();
+            Intent intent = new Intent(this, RegistrationActivity.class);
+            startActivity(intent);
+        }
+    }
+
+    private void mainActivity() {
+        getToken();
+
         ArrayList<NotificationModel> notificationModels = new ArrayList<>();
 
         DatabaseHelper databaseHelper = new DatabaseHelper(this);
@@ -127,7 +141,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         NotificationAdaptor notificationAdaptor = new NotificationAdaptor(getApplicationContext(), notificationModels);
         recyclerView.setAdapter(notificationAdaptor);
-
     }
 
     private void initViews() {

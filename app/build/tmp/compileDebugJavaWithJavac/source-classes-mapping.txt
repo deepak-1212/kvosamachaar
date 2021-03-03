@@ -2,10 +2,11 @@ com/example/ngonotification/HelpdeskApi.java
  com.example.ngonotification.HelpdeskApi
 com/example/ngonotification/Model/TokenRequest.java
  com.example.ngonotification.Model.TokenRequest
-com/example/ngonotification/DatabaseHelper.java
- com.example.ngonotification.DatabaseHelper
-com/example/ngonotification/Model/NotificationResponse.java
- com.example.ngonotification.Model.NotificationResponse
+com/example/ngonotification/MainActivity.java
+ com.example.ngonotification.MainActivity
+ com.example.ngonotification.MainActivity$1
+com/example/ngonotification/MyFirebaseMessagingService.java
+ com.example.ngonotification.MyFirebaseMessagingService
 com/example/ngonotification/NotificationUtils.java
  com.example.ngonotification.NotificationUtils
 com/example/ngonotification/HelpDeskClient.java
@@ -19,17 +20,21 @@ com/example/ngonotification/NotificationAdaptor.java
  com.example.ngonotification.NotificationAdaptor$NotificationHolder
 com/example/ngonotification/AdminPassword.java
  com.example.ngonotification.AdminPassword
+com/example/ngonotification/CommonMethods.java
+ com.example.ngonotification.CommonMethods
 com/example/ngonotification/NotificationModel.java
  com.example.ngonotification.NotificationModel
 com/example/ngonotification/BuildConfig.java
  com.example.ngonotification.BuildConfig
 com/example/ngonotification/WebViewActivity.java
  com.example.ngonotification.WebViewActivity
-com/example/ngonotification/MainActivity.java
- com.example.ngonotification.MainActivity
- com.example.ngonotification.MainActivity$1
-com/example/ngonotification/MyFirebaseMessagingService.java
- com.example.ngonotification.MyFirebaseMessagingService
+com/example/ngonotification/RegistrationActivity.java
+ com.example.ngonotification.RegistrationActivity
+ com.example.ngonotification.RegistrationActivity$1
+com/example/ngonotification/Model/NotificationResponse.java
+ com.example.ngonotification.Model.NotificationResponse
 com/example/ngonotification/CreateNotification.java
  com.example.ngonotification.CreateNotification
  com.example.ngonotification.CreateNotification$1
+com/example/ngonotification/DatabaseHelper.java
+ com.example.ngonotification.DatabaseHelper

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "E:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\abc\\.gradle\\caches\\transforms-2\\files-2.1\\7614dbbada1cbe50f23e2c2fbcca1f3a\\core-1.5.0-beta02\\res\\values-en-rAU\\values-en-rAU.xml",

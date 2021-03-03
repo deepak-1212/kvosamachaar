@@ -1689,6 +1689,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable kvosamachar
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1992,6 +1993,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_header_container
 id never
 id noNotification
@@ -2001,6 +2003,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number
 id off
 id on
 id outline
@@ -2220,6 +2223,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_create_notification
 layout activity_main
+layout activity_registration
 layout activity_web_view
 layout admin_password
 layout custom_dialog
@@ -2370,6 +2374,7 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string fcm_fallback_notification_channel_label
+string field_not_blank
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

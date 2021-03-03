@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\AndroidProjects\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
+            "outputFile": "E:\\AndroidProjects\\Personal\\NgoNotification\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
                     "source": "C:\\Users\\abc\\.gradle\\caches\\transforms-2\\files-2.1\\93f0d8bc62231fda390e9c6cbf1a63bd\\jetified-firebase-messaging-21.0.1\\res\\values-ro\\values.xml",
