@@ -19,6 +19,7 @@ import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
@@ -41,7 +42,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     Uri soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
     @Override
-    public void onNewToken(String s) {
+    public void onNewToken(@NonNull String s) {
         super.onNewToken(s);
         Log.i("TAG", "onNewToken: Called");
 
@@ -134,8 +135,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private void insertRecord(String title, String body, String url) {
         Runnable runnable = () -> {
-            DatabaseHelper databaseHelper = new DatabaseHelper(getApplicationContext());
-            SQLiteDatabase sqLiteDatabase = databaseHelper.getWritableDatabase();
+            SQLiteDatabase sqLiteDatabase;
+            try (DatabaseHelper databaseHelper = new DatabaseHelper(getApplicationContext())) {
+                sqLiteDatabase = databaseHelper.getWritableDatabase();
+            }
 
             ContentValues contentValues = new ContentValues();
             contentValues.put("notification_title", title);
