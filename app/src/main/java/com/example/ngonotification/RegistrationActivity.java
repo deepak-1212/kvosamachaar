@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.ngonotification.Model.TokenResponse;
@@ -79,9 +80,9 @@ public class RegistrationActivity extends AppCompatActivity {
         HelpdeskApi helpdeskApi = retrofit.create(HelpdeskApi.class);
         Call<TokenResponse> call = helpdeskApi.Register(str_name, str_number, mac);
 
-        call.enqueue(new Callback<TokenResponse>() {
+        call.enqueue(new Callback<>() {
             @Override
-            public void onResponse(Call<TokenResponse> call, Response<TokenResponse> response) {
+            public void onResponse(@NonNull Call<TokenResponse> call, @NonNull Response<TokenResponse> response) {
                 if (response.code() == 200) {
                     Log.i("TAG", "onResponse: " + response.body());
                     editor = settings.edit();

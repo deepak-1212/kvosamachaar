@@ -5,32 +5,24 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.ContentValues;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.AudioAttributes;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
-import android.preference.PreferenceManager;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.NotificationCompat;
-import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.List;
 import java.util.Map;
 
 
@@ -62,7 +54,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             body = jsonObject.getString("body");
             url = jsonObject.getString("url");
         } catch (JSONException e) {
-            e.printStackTrace();
+            return;
         }
 
         insertRecord(title, body, url);
@@ -71,27 +63,16 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         try {
             Intent intent = new Intent(this, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_ONE_SHOT);
+            PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_IMMUTABLE);
 
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
             if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
-                builder.setSmallIcon(R.drawable.ic_launcher_foreground)
-                        .setColor(getResources().getColor(R.color.black))
-                        .setContentTitle(title)
-                        .setAutoCancel(true)
-                        .setNumber(1)
-                        .setSound(soundUri)
-                        .setContentIntent(pendingIntent)
-                        .setStyle(new NotificationCompat.BigTextStyle()
-                                .bigText(body));
+                builder.setSmallIcon(R.drawable.ic_launcher_foreground).setColor(getResources().getColor(R.color.black)).setContentTitle(title).setAutoCancel(true).setNumber(1).setSound(soundUri).setContentIntent(pendingIntent).setStyle(new NotificationCompat.BigTextStyle().bigText(body));
 
                 manager.notify(NOTIFICATION_ID, builder.build());
 
-            } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                AudioAttributes att = new AudioAttributes.Builder()
-                        .setUsage(AudioAttributes.USAGE_NOTIFICATION)
-                        .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
-                        .build();
+            } else {
+                AudioAttributes att = new AudioAttributes.Builder().setUsage(AudioAttributes.USAGE_NOTIFICATION).setContentType(AudioAttributes.CONTENT_TYPE_SPEECH).build();
                 CharSequence name = "chanel_name";
                 String description = "desc";
                 int importance = NotificationManager.IMPORTANCE_HIGH;
@@ -105,31 +86,15 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 NotificationManager notificationManager = getSystemService(NotificationManager.class);
                 assert notificationManager != null;
                 notificationManager.createNotificationChannel(channel);
-                Notification.Builder notification = new Notification.Builder(this, CHANNEL_ID)
-                        .setSmallIcon(R.drawable.ic_launcher_foreground)
-                        .setContentTitle(title) // title for notification
+                Notification.Builder notification = new Notification.Builder(this, CHANNEL_ID).setSmallIcon(R.drawable.ic_launcher_foreground).setContentTitle(title) // title for notification
                         /* .setContentText(body) */// message for notification
-                        .setAutoCancel(true)
-                        .setSound(soundUri)
-                        .setNumber(7)
-                        .setOnlyAlertOnce(true)
-                        .setDefaults(Notification.DEFAULT_ALL)
-                        .setContentIntent(pendingIntent)
-                        .setStyle(new Notification.BigTextStyle()
-                                .bigText(body));
+                        .setAutoCancel(true).setNumber(7).setOnlyAlertOnce(true).setDefaults(Notification.DEFAULT_ALL).setContentIntent(pendingIntent).setStyle(new Notification.BigTextStyle().bigText(body));
                 manager.notify(NOTIFICATION_ID, notification.build());
-            } else {
-                builder.setSmallIcon(R.drawable.ic_launcher_foreground)
-                        .setContentTitle(title)
-                        .setContentText(body)
-                        .setAutoCancel(true)
-                        .setContentIntent(pendingIntent);
-                manager.notify(NOTIFICATION_ID, builder.build());
             }
 
 
         } catch (Resources.NotFoundException e) {
-            e.printStackTrace();
+            e.fillInStackTrace();
         }
     }
 

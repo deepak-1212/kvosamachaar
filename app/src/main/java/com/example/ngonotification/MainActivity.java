@@ -22,7 +22,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.ngonotification.Model.TokenRequest;
 import com.example.ngonotification.Model.TokenResponse;
-import com.google.firebase.iid.FirebaseInstanceId;
 
 import java.net.NetworkInterface;
 import java.util.ArrayList;
